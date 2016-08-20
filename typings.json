@@ -1,0 +1,9 @@
+{
+  "name": "bootstrap-validator",
+  "main": "src/validator.d.ts",
+  "homepage": "https://github.com/1000hz/bootstrap-validator",
+  "version": "^0.11.5",
+  "globalDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20160704162008"
+  }
+}

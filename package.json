@@ -1,0 +1,20 @@
+{
+  "name": "types-bootstrap-validator",
+  "version": "0.11.5",
+  "description": "Type definitions for bootstrap-validator",
+  "author": "Trevor Bekolay",
+  "license": "MIT",
+  "homepage": "https://github.com/tbekolay/types-bootstrap-validator",
+  "private": true,
+  "scripts": {
+    "build": "typings bundle --global -o out/js/validator.d.ts",
+    "lint": "tslint 'src/**/*.ts'"
+  },
+  "devDependencies": {
+    "bootstrap-validator": "0.11.5",
+    "tslint": "^3.14.0",
+    "tslint-config-typings": "^0.2.3",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  }
+}
